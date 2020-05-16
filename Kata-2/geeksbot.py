@@ -20,7 +20,7 @@ def main():
 
 #Definimos qué hace el comando start
 def start(update, context):
-    update.message.reply_text("Hola ¿Cómo estás?")
+    update.message.reply_text("Hola ¿Cómo estás pringao?")
 
 #Definimos qué hace el comando repite
 def repite(update, context):
