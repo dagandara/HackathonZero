@@ -6,7 +6,7 @@ screen_height = 560
 back_color = (200,200,200)
 
 pygame.init()
-clock = pygame.time.clock()
+clock = pygame.time.Clock()
 
 screen = pygame.display.set_mode((screen_width, screen_height))
 
