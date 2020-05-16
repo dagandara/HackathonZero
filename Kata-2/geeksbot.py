@@ -28,9 +28,8 @@ def repite(update, context):
 
 #Definimos qué hace el comando suma
 def suma(update, context):
-    #context.args saca los elementos de un listado de palabras los args serían [2, 2]
+   #context.args saca los elementos de un listado de palabras los args serían [2, 2]
     #args = [2, 2]
     resultado = int(context.args[0]) + int(context.args[1])
-    update.message.reply_text("El resultado es: " + str(resultado))
-
+    update.message.reply_text("La suma es "+str(resultado))
 main()
